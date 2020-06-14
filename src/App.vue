@@ -11,7 +11,7 @@
             type="text"
             class="form-control"
             aria-describedby="tagsHelp"
-            placeholder="Enter base url"
+            placeholder="https://youtube.com?"
           />
         </div>
         <div class="form-group">
@@ -113,7 +113,6 @@ export default {
       this.buildUrl();
     }
   },
-  
   mounted() {
     this.builtUrl = this.baseUrl;
   },
